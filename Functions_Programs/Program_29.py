@@ -1,4 +1,4 @@
-#29.	Write a recursive function to search for an element in a sorted list using binary search.
+#  29. Write a recursive function to search for an element in a sorted list using binary search.
 def binary_search(sorted_list, target, left, right):
     if left > right:
         return -1 
